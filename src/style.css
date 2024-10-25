@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Regular';
+    font-style: normal;
+    src: url('./assets/fonts/Inter_24pt-Regular.ttf') format('truetype');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Bold';
+    font-style: normal;
+    src: url('./assets/fonts/Inter_24pt-Bold.ttf') format('truetype');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'SemiBold';
+    font-style: normal;
+    src: url('./assets/fonts/Inter_24pt-SemiBold.ttf') format('truetype');
+    font-weight: 700;
+}
+
+body{
+    font-family: 'Regular';
+}
+
+main{
+    padding-top: 155px;
+}
+
+.containerBtnMenu{
+    @apply py-2 px-4 border-y border-white hover:shadow-2xl;
+}
+
+.btnMenu{
+    text-decoration: none;
+    @apply px-1 py-2 text-white hover:font-SemiBold;
+}
