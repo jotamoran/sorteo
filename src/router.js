@@ -8,7 +8,7 @@ import Admin from "./views/Admin.vue";
 
 const routes = [
     {
-        path: '/sorteo/', component: Main
+        path: '/', component: Main
     },
     {
         path: '/main', component: Main

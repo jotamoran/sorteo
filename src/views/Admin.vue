@@ -64,7 +64,7 @@
       };
   
       const refrescarDatos = async () => {
-        const url = import.meta.env.VITE_API_SORTEO + 'boletos';
+        const url = 'https://serviciosfinanzas.udg.mx/api/api_srt/boletos';
         try {
             
           const response = await fetch(url);

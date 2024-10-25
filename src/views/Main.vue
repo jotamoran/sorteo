@@ -98,7 +98,7 @@
       const premioImagen = '/premio.jpg' // Cambia esto a la ruta de tu imagen
   
       onMounted(async () => {
-        const url = import.meta.env.VITE_API_SORTEO + 'boletos'
+        const url = 'https://serviciosfinanzas.udg.mx/api/api_srt/boletos'
         try {
           const response = await fetch(url)
           if (!response.ok) throw new Error('Error al cargar los boletos')
