@@ -139,7 +139,7 @@
       }
   
       const guardarBoleto = async () => {
-        const url = import.meta.env.VITE_API_SORTEO + 'boletos'  // URL de la API para actualizar el boleto
+        const url = 'https://serviciosfinanzas.udg.mx/api/api_srt/boletos'  // URL de la API para actualizar el boleto
         try {
           const response = await fetch(url, {
             method: 'POST',
